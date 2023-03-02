@@ -7,10 +7,10 @@ from datetime import timedelta, datetime
 import os
 
 # Get the number of CPU cores
-num_cores = os.cpu_count()
+# num_cores = os.cpu_count()
 
 # Use 75% of the CPU cores
-num_threads = int(num_cores * 0.75)
+# num_threads = int(num_cores * 0.75)
 
 polyKey = "FILL IN YOUR KEY HERE"
 
